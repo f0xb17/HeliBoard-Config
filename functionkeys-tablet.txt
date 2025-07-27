@@ -1,0 +1,31 @@
+[
+  [
+    { "label": "tab", "width": 0.11, "type": "function" },
+    { "type": "placeholder" },
+    { "label": "delete", "width": 0.13 }
+  ],
+  [
+    { "label": "clipboard", "width": 0.13, "type": "function" },
+    { "type": "placeholder" },
+    { "label": "action", "width": 0.1, "type": "function" }
+  ],
+  [
+    { "label": "shift", "width": 0.18 },
+    { "type": "placeholder" },
+    { "label": "shift", "width": 0.16 }
+  ],
+  [
+    { "label": "symbol_alpha", "width": 0.13 },
+    {
+      "$": "variation_selector",
+      "default": { "label": "emoji", "width": 0.106 },
+      "email": { "label": "@", "groupId": 1, "type": "function" },
+      "uri": { "label": "/", "groupId": 1, "type": "function" }
+    },
+    { "$": "keyboard_state_selector", "symbols": { "label": "numpad" } },
+    { "label": "space" },
+    { "label": "left", "width": 0.075 },
+    { "label": "right", "width": 0.075 },
+    { "label": "symbol_alpha", "width": 0.08 }
+  ]
+]
