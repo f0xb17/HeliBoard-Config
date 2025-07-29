@@ -1,18 +1,17 @@
 [
   [
-    { "label": "tab", "width": 0.11, "type": "function" },
     { "type": "placeholder" },
-    { "label": "delete", "width": 0.13 }
+    { "label": "delete", "width": 0.16 }
   ],
   [
-    { "label": "clipboard", "width": 0.13, "type": "function" },
+    { "type": "placeholder", "width": 0.05 },
     { "type": "placeholder" },
-    { "label": "action", "width": 0.1, "type": "function" }
+    { "label": "action", "width": 0.10, "type": "function" }
   ],
   [
-    { "label": "shift", "width": 0.18 },
+    { "label": "shift", "width": 0.10 },
     { "type": "placeholder" },
-    { "label": "shift", "width": 0.16 }
+    { "label": "shift", "width": 0.13 }
   ],
   [
     { "label": "symbol_alpha", "width": 0.13 },
